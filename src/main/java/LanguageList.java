@@ -20,11 +20,11 @@ public class LanguageList {
     }
 
     public String firstLanguage() {
-        throw new UnsupportedOperationException("Please implement the firstLanguage() method");
+        return languages.get(0);
     }
 
     public int count() {
-        throw new UnsupportedOperationException("Please implement the count() method");
+        return languages.size();
     }
 
     public boolean containsLanguage(String language) {
