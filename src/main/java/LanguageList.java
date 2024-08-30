@@ -16,7 +16,7 @@ public class LanguageList {
     }
 
     public void removeLanguage(String language) {
-        throw new UnsupportedOperationException("Please implement the removeLanguage() method");
+        languages.remove(language);
     }
 
     public String firstLanguage() {
