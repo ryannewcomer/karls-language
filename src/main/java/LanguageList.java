@@ -12,7 +12,7 @@ public class LanguageList {
     }
 
     public void addLanguage(String language) {
-        throw new UnsupportedOperationException("Please implement the addLanguage() method");
+        languages.add(language);
     }
 
     public void removeLanguage(String language) {
